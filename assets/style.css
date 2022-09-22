@@ -7,7 +7,7 @@ body {
 .background-section {
   /* display: flex; */
   color:white;
-  background-color: rgba(0, 0, 0, 0.826);
+  background-color: rgba(0, 0, 0, 0.877);
   position:absolute;
   top:0px;
   right:0px;
@@ -51,6 +51,46 @@ body {
   font-weight: bold;
 }
 
+.page-box {
+  margin-top: 12px;
+}
+
+#description {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 #city {
   color:rgba(228, 223, 223, 0.658)
 }
+
+#link {
+  /* margin-top: 35px; */
+}
+
+.music-box {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+  width: 620px;
+  height: 70px;
+  background-color: #333333;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.music-logo {
+  margin: 0;
+}
+
+#logo1 {
+  height: 70px;
+  width: 70px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* .music-div {
+  width: 100%;
+  text-align: center; 
+}*/
