@@ -61,9 +61,15 @@ body {
   color:rgba(228, 223, 223, 0.658)
 }
 
-#link {
-  /* margin-top: 35px; */
+#f-link {
+  margin-top: 9px;
+  width: 40px;
 }
+
+#f-link:hover {
+  opacity: .6;
+}
+
 
 .music-box {
   margin-top: 18px;
