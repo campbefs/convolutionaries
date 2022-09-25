@@ -5,19 +5,14 @@ body {
   }
 
 .background-section {
-  /* display: flex; */
   color:white;
   background-color: rgba(0, 0, 0, 0.877);
   position:absolute;
   width: 100%;
-  height: 100%;
-  /* top:0px;
-  right:0px;
-  bottom:0px;
-  left:0px; */
-  margin: auto;
-  /* align-items: center; */
-  /* opacity: .3; */
+  height:  100vh;
+  margin: 0;
+  overflow: auto; /* this seems to have worked to take up full page */
+  -webkit-overflow-scrolling: auto;
 }
 
 .main-section {
@@ -80,6 +75,12 @@ body {
   border-radius: 20px;
   /* text-align: center; */
   vertical-align: center;
+  text-decoration: none; /* this is removing underline */
+}
+
+.music-box:hover {
+  background-color: grey;
+  transition: .3s;
 }
 
 .music-logo {
@@ -99,6 +100,7 @@ body {
   width: 78%;
   align-items: center;
   padding-left: 30px;
+  color:  white;
 }
 
 .arrow {
