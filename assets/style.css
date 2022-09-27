@@ -15,6 +15,7 @@ body {
   -webkit-overflow-scrolling: auto;
 }
 
+
 .main-section {
   display:flex;
   flex-direction: column;
@@ -119,4 +120,32 @@ body {
 
 #play-music {
   margin-top: 20px;
+  width: 620px;
 }
+
+/* mobile */
+
+/* @media (max-width: 900px) {
+  .background-section {
+    background-color: red;
+  }
+} */
+
+@media (max-width: 700px) {
+  .big-box {
+    width: 80%;
+    height: 550px;
+  }
+
+  .music-box {
+    width: 80%;
+  }
+
+  #play-music {
+    width: 80%;
+  }
+}
+
+/* width: 620px; */
+/* big-box */
+/* music-box */
